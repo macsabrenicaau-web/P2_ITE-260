@@ -3,7 +3,7 @@ print("STUDENT ACTIVITY SCORE SYSTEM")
 Students = int(input("\nHow many students? "))
 
 def Student():
-    S_1 = (input("Enter name: "))
+    S_1 = str(input("Enter name: "))
     A_1 = float(input("Activity 1: "))
     A_2 = float(input("Activity 2: "))
     A_3 = float(input("Activity 3: "))
